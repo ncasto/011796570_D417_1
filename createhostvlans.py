@@ -29,9 +29,9 @@ ITswitch = {
     "username": "admin",
     "password": ''
 }
-createacctvlan = "create vlan ACCT_Network"
+createacctvlan = "create vlan ACCT_Network tag 20"
 
-createuservlan = "create vlan User_Network" 
+createuservlan = "create vlan User_Network tag 30" 
 createmgmtvlan = "create vlan MGMT_Network tag 10" 
 
 createitvlan = "create vlan IT_Network tag 40"
